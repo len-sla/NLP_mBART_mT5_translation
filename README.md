@@ -3,7 +3,7 @@
 
 
 
-### General info
+### 1. T5
 If you need to  translate  text from english  to german/french/spanish 
 you could use one of many online translator services. They are convenient and quick.
 If you are a company/private and don't want to share, sometimes confident information having own local translator could be better solution.
@@ -15,7 +15,9 @@ There actually more line of code taking care about cosmetic of two used widgets 
 #### _comparing local and online translator result_ 
 ![### comparing local and online translator result ](en-ge-t5.JPG)
 
-#### There two extra notebooks: (Part_A_files_preprocess_NTLK_spliting_by_sentence.ipynb, Part_B_files_text_translators_eng_to_de_es_pl.ipynb ) to be used with  T5 and MarianMT models for translation of text files.
+### 2. MarianMT 
+
+There two extra notebooks: (Part_A_files_preprocess_NTLK_spliting_by_sentence.ipynb, Part_B_files_text_translators_eng_to_de_es_pl.ipynb ) to be used with  T5 and MarianMT models for translation of text files.
 
 * [Part_A_files_preprocess_NTLK_spliting_by_sentence.ipynb:](Part_A_files_preprocess_NTLK_spliting_by_sentence.ipynb) is responsible for text file preprocessing.
 * [Part_B_files_text_translators_eng_to_de_es_pl.ipynb:](https://github.com/len-sla/NLP/blob/master/Part_B_files_text_translators_eng_to_de_es_pl.ipynb) makes text file translation.
