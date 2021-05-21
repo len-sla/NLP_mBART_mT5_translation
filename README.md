@@ -20,7 +20,7 @@ There actually more line of code taking care about cosmetic of two used widgets 
 There two extra notebooks: (Part_A_files_preprocess_NTLK_spliting_by_sentence.ipynb, Part_B_files_text_translators_eng_to_de_es_pl.ipynb ) to be used with  T5 and MarianMT models for translation of text files.
 
 * [Part_A_files_preprocess_NTLK_spliting_by_sentence.ipynb:](Part_A_files_preprocess_NTLK_spliting_by_sentence.ipynb) is responsible for text file preprocessing.
-* [Part_B_files_text_translators_eng_to_de_es_pl.ipynb:](https://github.com/len-sla/NLP/blob/master/Part_B_files_text_translators_eng_to_de_es_pl.ipynb) makes text file translation.
+* [Part_B_files_text_translators_eng_to_de_es_pl.ipynb:](https://github.com/len-sla/NLP_mT5_translation/blob/main/Part_B_files_text_translators_eng_to_de_es_pl.ipynb) makes text file translation.
 
 All model names use the following format: Helsinki-NLP/opus-mt-{src}-{tgt}
 Since Marian models are smaller than many other translation models available in the library, they can be useful for fine-tuning experiments and integration tests.
