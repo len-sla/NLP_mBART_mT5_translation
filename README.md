@@ -30,7 +30,7 @@ Since Marian models are smaller than many other translation models available in 
 #### _translation to spanish_
 ![### Using Ipython forms ](text_es.JPG)
 
-I was trying also some other languages like french to polish but the results were not impressive.
+_I was trying also some other languages like french to polish but the results were not impressive._
 ---
 
 ### 3. Preparing input for own mT5 model
