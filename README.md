@@ -61,4 +61,4 @@ Project is: _in progress_,
 
 
 ### Info
-Created by [@len-sla]
+Created by [lencz.sla@gmail.com]
