@@ -34,7 +34,7 @@ Since Marian models are smaller than many other translation models available in 
 
 
 _I was trying also some other languages like french to polish but the results were not impressive._
-
+Trnaslation from english to french and back  are much better
 
 ---
 
