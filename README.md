@@ -62,7 +62,7 @@ source trans/bin/activate
  pip install protobuf
  
  ```
-transformers[serving] will install in package FastAPI and Uvicorn  included so we can have interface.
+transformers[serving] will install in package FastAPI and Uvicorn.
 FastAPI is designed to work with ASGI servers like Uvicorn. While FastAPI provides the framework for building APIs, Uvicorn is responsible for running the FastAPI application and handling incoming HTTP requests. 
 Once everything is installed lets execute translation task
 
