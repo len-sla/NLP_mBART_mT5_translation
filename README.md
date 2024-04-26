@@ -40,12 +40,11 @@ Trnaslation from english to french and back  are much better
 ##  How MarianMT transformer meets docker 
 
 > <p>How quickly with the use of cli on ubuntu machine get translation.<br>
-In this example I use spanish to german MarianMTModel 'Helsinki-NLP/opus-mt-es-de'
-transformers library fron HuggingFace jq( to decipher jason)  and curl  just to present how to 
-using cli based tools get things done
-installing libraries
+In this example I will use spanish to german MarianMTModel 'Helsinki-NLP/opus-mt-es-de'.<br>
 
-To avoid poluting ubuntu everything will be done in virtual environment (trans)
+installing libraries:
+
+To avoid poluting ubuntu everything will be done in virtual environment (trans).<br>
 ubuntu  is virtual machine on Proxmox for convenience.
 
  ```
@@ -63,14 +62,14 @@ source trans/bin/activate
  
  ```
 transformers[serving] will install in package FastAPI and Uvicorn.
-FastAPI is designed to work with ASGI servers like Uvicorn. While FastAPI provides the framework for building APIs, Uvicorn is responsible for running the FastAPI application and handling incoming HTTP requests. 
+FastAPI is designed to work with ASGI servers like Uvicorn.<br> While FastAPI provides the framework for building APIs,<br> Uvicorn is responsible for running the FastAPI application and handling incoming HTTP requests. 
 Once everything is installed lets execute translation task
 
  ```
 transformers-cli serve   --task translation   --host 0.0.0.0   --port 8000   --model Helsinki-NLP opus-mt-es-de   --tokenizer Helsinki-NLP/opus-mt-es-de   --device -1
  
  ```
-of course other port model and task could be assigned it will be a question how to prepare forward POST in curl Ive tried to use mBart model facebook/mbart-large-50-many-to-many-mmt instalation and servig was ok though I was not able ot create proper POST request source and in particular give source and target language to translate
+of course other port, model and task could be assigned<br> then  it will be a question how to prepare forward POST in curl<br> I've tried to use mBart model facebook/mbart-large-50-many-to-many-mmt <br>instalation and servig was ok <br>though I was not able ot create proper POST request<br> in particular giving proper format of source and target language to translate in 
  
  
  ```
