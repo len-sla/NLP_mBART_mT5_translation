@@ -109,7 +109,7 @@ CMD ["python", "run_server.py"]
  ```
 
 
-image could be build locally or on remote machine/remote LXC container in Promox  ( I used ssh and scp to that machine to copy there DOcckerfile as above this time) just not to polute my ubuntu environment
+image could be build locally or on remote machine/remote LXC container in Promox  ( I used ssh and scp to that machine to copy there Docckerfile as above this time) just not to polute my ubuntu environment
 with large docker images.
  ```
 docker build -t mbart-translation-server
