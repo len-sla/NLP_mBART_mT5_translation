@@ -116,7 +116,7 @@ port mapping was done so the translation service will be visible outside of the 
 
 as this time translation is done on other machine POST is a bit different ging IP of that machine
 ```
-curl -X POST      -H "Content-Type: application/json"      "http://192.168.31.102:7001/translate?inputs=Hello,%20how%20are%20you?%20good.%20And%20you?&src_lang=en_XX&tgt_lang=de_DE" |jq
+curl -X POST      -H "Content-Type: application/json"      "http://192.168.xx.102:7001/translate?inputs=Hello,%20how%20are%20you?%20good.%20And%20you?&src_lang=en_XX&tgt_lang=de_DE" |jq
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100    74  100    74    0     0     12      0  0:00:06  0:00:05  0:00:01    19
@@ -127,7 +127,7 @@ curl -X POST      -H "Content-Type: application/json"      "http://192.168.31.10
     }
   ]
 }
-u@u220:~$ curl -X POST      -H "Content-Type: application/json"      "http://192.168.31.102:7001/translate?inputs=Hello,%20how%20are%20you?%20good.%20And%20you?&src_lang=en_XX&tgt_lang=ar_AR" |jq
+u@u220:~$ curl -X POST      -H "Content-Type: application/json"      "http://192.168.xx.102:7001/translate?inputs=Hello,%20how%20are%20you?%20good.%20And%20you?&src_lang=en_XX&tgt_lang=ar_AR" |jq
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100    93  100    93    0     0     16      0  0:00:05  0:00:05 --:--:--    21
