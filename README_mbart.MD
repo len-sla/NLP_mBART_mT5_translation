@@ -24,8 +24,8 @@ source trans/bin/activate
  
  ```
 transformers[serving] will install in package FastAPI and Uvicorn  included so we can have interface.
-FastAPI is designed to work with ASGI servers like Uvicorn. While FastAPI provides the framework for building APIs, Uvicorn is responsible for running the FastAPI application and handling incoming HTTP requests. In earlier attem I was trying to use forward end point though without success I was not able to give as argument source and target language to get around custom serving was prepared with translation endpoint  
-they ar emaking the jo two files are:<br>
+FastAPI is designed to work with ASGI servers like Uvicorn. While FastAPI provides the framework for building APIs, Uvicorn is responsible for running the FastAPI application and handling incoming HTTP requests. In earlier attem I was trying to use forward end point though without success I was not able to give as argument source and target language to get around custom serving was prepared with translation endpoint<br> 
+this is made by two files:<br>
 custom_serving.py<br>
 run_server.py<br>
 
