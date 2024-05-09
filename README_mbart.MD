@@ -45,17 +45,16 @@ INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 INFO:     Uvicorn running on http://0.0.0.0:8888 (Press CTRL+C to quit)
  ``` 
-and the answer(in Hindu) was
+
 small explanation to POST content
  ```
 "http://localhost:8888/translate?inputs=Hello,%20how%20are%20you?%20good.%20And%20you?&src_lang=en_XX&tgt_lang=hi_IN"
  ```
-%20 is just space representation 
-rc_lang=en_XX&tgt_lang=hi_IN is giving source and target language according to
+%20 is just space representation <br>
+rc_lang=en_XX&tgt_lang=hi_IN is giving source and target language according to<br>
+langs=ar_AR,cs_CZ,de_DE,en_XX,es_XX,et_EE,fi_FI,fr_XX,gu_IN,hi_IN,it_IT,ja_XX,kk_KZ,ko_KR,lt_LT,lv_LV,my_MM,ne_NP,nl_XX,ro_RO,ru_RU,si_LK,tr_TR,vi_VN,zh_CN<br>
 
-langs=ar_AR,cs_CZ,de_DE,en_XX,es_XX,et_EE,fi_FI,fr_XX,gu_IN,hi_IN,it_IT,ja_XX,kk_KZ,ko_KR,lt_LT,lv_LV,my_MM,ne_NP,nl_XX,ro_RO,ru_RU,si_LK,tr_TR,vi_VN,zh_CN
-
-
+and the answer(in Hindu) was
 
  ```
 curl -X POST      -H "Content-Type: application/json"      "http://localhost:8888/translate?inputs=Hello,%20how%20are%20you?%20good.%20And%20you?&src_lang=en_XX&tgt_lang=hi_IN" |
