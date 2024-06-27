@@ -184,6 +184,6 @@ and running it in directory where there is odf to translate
 
 docker run -it --rm -v "${PWD}:/tmp/pdf_translator" pdf-translator
 ```
-
+![](translate_docker.gif)
 ### Status
 Project is: _in progress_ 
