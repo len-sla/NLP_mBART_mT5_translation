@@ -148,6 +148,8 @@ u@u220:~$ curl -X POST      -H "Content-Type: application/json"      "http://192
 }
 
 ```
+![](mbart.gif)
+
 ## 2 How to make  mbart translating in bulk ( book or pdf file)
 Once again I will use  docker this time python script will load pdf file from current directory split that to sentencies ,
 translate each sentence to given language according to initial setup and save them in two txt files one where there both source and target language and second where there is only target language. this will be done by docker image this second imaage will be responsible for loading pdf spliting that to sentencies sending request to previous uvicorn fast server receive response and save that to file.
@@ -171,6 +173,6 @@ ENTRYPOINT ["python", "/app/translate_pdf.py"]
 
  ```
 
-![](mbart.gif)
+
 ### Status
 Project is: _in progress_ 
