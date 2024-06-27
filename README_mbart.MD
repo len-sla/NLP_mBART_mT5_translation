@@ -172,7 +172,18 @@ ENTRYPOINT ["python", "/app/translate_pdf.py"]
 
 
  ```
+image is created with command:
 
+```
+docker build -t pdf-translator .
+
+```
+and running it in directory where there is odf to translate
+
+```
+
+docker run -it --rm -v "${PWD}:/tmp/pdf_translator" pdf-translator
+```
 
 ### Status
 Project is: _in progress_ 
