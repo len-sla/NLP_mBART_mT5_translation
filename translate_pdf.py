@@ -50,7 +50,7 @@ def main():
     src_lang = input("Enter the source language code (e.g., en_XX): ")
     tgt_lang = input("Enter the target language code (e.g., de_DE): ")
 
-    server_url = input("Enter the translation server URL (e.g., http://192.168.31.102:7001): ")
+    server_url = input("Enter the translation server URL (e.g., http://192.168.xx.xx:7001): ")
     endpoint = input("Enter the translation endpoint (e.g., translate): ")
 
     translations = []
